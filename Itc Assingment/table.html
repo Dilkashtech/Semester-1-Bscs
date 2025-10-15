@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Element</title>
+    <style>
+        body{
+          margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        #top {
+            padding: 20px;
+        }
+        .bottom{
+            padding: 0;
+        }
+        .bottom th {
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+            letter-spacing: 1.6px;
+            word-spacing: 1px;
+            font-size: 35px;
+            }
+        .bottom h1 {
+            font-size: 20px;
+        }
+        p {
+            letter-spacing: 1.6px;
+            word-spacing: 2px;
+            font-size: 20px;
+        }
+        td>th{
+            
+            height: 100%;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+   
+    <table style="border-spacing: 0;">
+        <tr>
+            <tr>
+            <td colspan="9" style="background-color: black; color: white;">
+                <h1 style="font-size: 35px;">
+                    Introduction
+                </h1>
+                <p style="font-size: 25px;">These are just some words to fill a div element, so that its layout becomes
+                    real and not abstract
+                    anymore.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="bottom">
+                <th style="background-color: rgb(231, 184, 184);">
+                    <h1>
+                        Left Column
+                    </h1>
+                    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                        anymore.</p>
+            </td>
+            <td class="bottom">
+                <th style="background-color: palegoldenrod;">
+                    <h1>
+                        Center Coulumn
+                    </h1>
+                    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                        anymore.</p>
+            </td>
+            <td class="bottom">
+                <th style="background-color: rgb(125, 77, 123);">
+                    <h1>
+                        Right Coulumn
+                    </h1>
+                    <p>These are just some words to fill a div element, so that its layout becomes real and not abstract
+                        anymore.</p>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
